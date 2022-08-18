@@ -1,0 +1,197 @@
+body{
+    overflow: hidden;
+}
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 25px;
+    padding-bottom: 90px;
+    background-color: #e1e3eb;
+  }
+  .login-main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 25px;
+    padding-bottom: 90px;
+    background-color: #e1e3eb;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 580px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  }
+  .login-sub-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    min-height: 520px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+    h1{
+        font-weight: 500;
+    }
+  .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+
+  .login-input{
+      width: 300px;
+      height: 50px;
+      border-radius: 60px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+
+  .email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .login-input{
+      padding-left: 70px;
+      font-size: 20px;
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+  .login-btnn{
+      width: 380px;
+      height: 50px;
+      border-radius: 60px;
+      background-color: #b103fc;
+      color: white;
+      font-size: 25px;
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+    .login-btn{
+       color: blue;
+       text-decoration: underline;
+       font-size: 25px;
+    }
+    .login-txt{
+        font-family: 'poppins', sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+/* CardPage */
+.person-input{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  /* box-shadow: inset 0px 0px 25px 0px #888; */
+  border: 0.5px solid black;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 95px;
+  margin-left: 280px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.person-btn{
+  width: 90px;
+  height: 55px;
+  background-color: #ba68c8;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+ /* background: rgb(233,76,161); */
+/* background: -moz-linear-gradient(90deg, rgba(233,76,161,1) 0%, rgba(199,74,233,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(233,76,161,1) 0%, rgba(199,74,233,1) 100%);
+background: linear-gradient(90deg, rgba(233,76,161,1) 0%, rgba(199,74,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1); */
+/* opacity: .7; */
+}
+table{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: #ba68c8;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
